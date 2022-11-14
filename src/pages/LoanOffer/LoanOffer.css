@@ -1,0 +1,65 @@
+.MuiButtonBase-root.Mui-expanded{
+    /* min-height: inherit !important; */
+    min-height: 32px !important;
+    height: fit-content;
+} 
+
+.MuiAccordionSummary-content{
+    margin: 0 !important;
+}
+.MuiPaper-elevation{
+    box-shadow: none !important;
+}
+.Mui-expanded{
+    margin: 0 !important;
+}
+
+.question-mark-image{
+    height: 20px;
+}
+
+ul.step2-list-items li{
+    list-style-type: disc;
+    display: list-item;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding-top: 12px;
+}
+
+table.loan-options-table{
+    width: 70%;
+}
+
+table.loan-options-table thead tr{
+    background-color: #f7f7f7;
+}
+table.loan-options-table thead tr th{
+    font-weight: 400;
+    width: 30px;
+    height: 40px;
+    line-height: 1rem;
+}
+table.loan-options-table tbody tr td{
+    width: 33.33%;
+}
+
+.booking-details table , .personal-details table{
+    border-collapse: collapse;
+    border: 2px solid #316ba2;
+}
+
+.booking-details th, .booking-details td, .personal-details th, .personal-details td {
+    text-align: left;
+    padding: 5px;
+}
+
+.booking-details th, .personal-details th{
+    background:linear-gradient(0deg, rgba(217,232,242,1) 0%, rgba(245,248,251,1) 100%);
+    color: #275796;
+}
+
+#select-card{
+    margin-left: 20px;
+    height: 20px;
+}
